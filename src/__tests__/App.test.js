@@ -29,7 +29,6 @@ describe("App component", () => {
       title: "Desafio ReactJS",
       techs: ["React", "Node.js"],
     });
-
     await actWait();
 
     fireEvent.click(getByText("Adicionar"));
